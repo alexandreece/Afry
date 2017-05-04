@@ -38,6 +38,10 @@ body {
     background-attachment:fixed;
 }
 
+.app {
+    padding-top: 10%;
+}
+
 .event {
     border-radius:4px;
     -webkit-border-radius:4px;
