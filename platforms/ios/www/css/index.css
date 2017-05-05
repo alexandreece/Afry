@@ -24,8 +24,8 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-color:#FFFFFF;
+    /*background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-gradient(
@@ -34,7 +34,7 @@ body {
         left bottom,
         color-stop(0, #A7A7A7),
         color-stop(0.51, #E4E4E4)
-    );
+    );*/
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -46,7 +46,7 @@ body {
 }
 
 /* Portrait layout (default) */
-.app {
+.app {/*
     background:url(../img/logo.png) no-repeat center top; /* 200px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
@@ -78,6 +78,30 @@ h1 {
     text-align:center;
 }
 
+a{
+    font-weight: 700;
+    color: #000000;
+}
+
+.btn-link{
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    background: #c3914b;
+    color: #FFFFFF;
+    width: 160px;
+    display: table;
+    margin: 0 auto 3% auto;
+    padding: 5%;
+}
+
+.link{
+    margin-bottom: 15px;
+}
+.title{
+    font-weight: 700;
+}
 .event {
     border-radius:4px;
     -webkit-border-radius:4px;
